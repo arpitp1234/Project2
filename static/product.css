@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+*{
+
+    margin: 0px;
+  
+   
+
+}
+#nav{
+    width: 100%;
+    height: 1.3cm;
+    background-color:rgba(233, 113, 15, 0.705);
+    
+ 
+  
+    
+}
+nav ul li{
+   display:inline-block;
+   padding-top:3mm;
+   
+}
+nav ul li a{
+    color: white;
+    padding: 3mm;
+    font-size: 5mm;
+    text-decoration: none;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: blue;
+}
+
+#one{
+    width: 100%;
+    height: 8cm;
+    background-color: red;
+    background-image: url(static/gamefour.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4mm;
+}
+#one h1{
+    font-size:1cm;
+    padding: 2mm;
+    float: right;
+    margin-top: 136px;
+    margin-right: 355px;
+    font-family: 'Rye', cursive;
+    color: yellow;
+}
+#two{
+    width: 100%;
+    height: 7.8cm;
+    display: flex;
+    margin-left: 110px;
+}
+#aa,#bb,#cc,#dd{
+    width: 20%;
+    height: 7cm;
+    border: 1mm solid black;
+    margin: 2mm;
+    border-radius: 38px;
+}
+#aa{
+    background-image: url(static/11.jpg);
+    background-repeat: no-repeat;
+    background-size: 99.5% 6.8cm;
+    
+}
+#bb{
+    background-image: url(static/12.jpg);
+    background-repeat: no-repeat;
+    background-size: 99.5% 6.8cm;
+}
+#cc{
+    background-image: url(static/13.jpg);
+    background-repeat: no-repeat;
+    background-size: 99.5% 6.8cm;
+}
+#dd{
+    background-image: url(static/14.jpg);
+    background-repeat: no-repeat;
+    background-size: 99.5% 6.8cm;
+}
+#four{
+    width: 100%;
+    height: 60px;
+}
+#four h3{
+    font-family: 'Rye', cursive;
+    color: rgb(12, 54, 170);
+    text-align: center;
+    font-size: 31px;
+    padding: 16px;
+}
+#three{
+    width: 100%;
+    height: 1.3cm;
+    background-color: rgba(233, 113, 15, 0.705);
+    padding-top: 3mm;
+}
+
+
+

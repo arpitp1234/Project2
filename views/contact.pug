@@ -1,0 +1,39 @@
+doctype html
+html
+  head
+    style
+      include ../static/contact.css
+  body
+    nav#nav 
+       ul 
+         center 
+          li #[a(href="/home") home ]
+          li #[a(href="/product") product]  
+          li #[a(href="/") contact us]
+          br 
+       section#one 
+           h1 NATIONAL CRICKET  ACADEMY
+       section#four 
+           h3 CONTACT US
+       section#two 
+             div#container
+                  form(action="/", method="post") 
+                     input(type="text" name='name' placeholder="enter you name")
+                     br
+                     input(type="number" name='phonenumber' placeholder="enter you phone number")
+                     br   
+                     input(type="number" name='age' placeholder="enter you age")
+                     br   
+                     input(type="email" name='email' placeholder="enter you email") 
+                     br   
+                     input(type="text" name='product' placeholder="If intereseted write product price otherwise write N0") 
+                     br   
+                     input(type="text" name='address' placeholder="enter you address")
+                     br   
+                     input(type="submit" value="submit")
+                     br   
+       footer#three
+           center 
+            h2  © all right reseverd since 2022
+    script
+      include ../static/script.js

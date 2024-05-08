@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+   
+
+}
+#nav{
+    width: 100%;
+    height: 1.3cm;
+    background-color:rgba(233, 113, 15, 0.705);
+    
+ 
+  
+    
+}
+nav ul li{
+   display:inline-block;
+   padding-top:3mm;
+   
+}
+nav ul li a{
+    color: white;
+    padding: 3mm;
+    font-size: 5mm;
+    text-decoration: none;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: blue;
+}
+
+#one{
+    width: 100%;
+    height: 8cm;
+    background-color: red;
+    background-image: url(static/gamefour.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4mm;
+}
+#one h1{
+    font-size:1cm;
+    padding: 2mm;
+    float: right;
+    margin-top: 136px;
+    margin-right: 355px;
+    font-family: 'Rye', cursive;
+    color: yellow;
+}
+#two{
+    width: 100%;
+    height: 7.8cm;
+    display: flex;
+    margin-left: 110px;
+}
+#four{
+    width: 100%;
+    height: 60px;
+}
+#four h3{
+    font-family: 'Rye', cursive;
+    color: rgb(12, 54, 170);
+    text-align: center;
+    font-size: 31px;
+    padding: 16px;
+}
+
+#aa,#bb,#cc{
+    width: 26%;
+    height: 7cm;
+    border: 1mm solid black;
+    margin: 2mm;
+    border-radius: 38px;
+  
+}
+#aa center h2,#bb center h2,#cc center h2{
+    margin-top: 200px;
+    font-family: 'Rye', cursive;
+    color: rgb(206 27 27)
+}
+#aa{
+    background-image: url(static/batting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#bb{
+    background-image: url(static/bowling.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cc{
+    background-image: url(static/fieldingimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#three{
+    width: 100%;
+    height: 1.3cm;
+    background-color: rgba(233, 113, 15, 0.705);
+    padding-top: 3mm;
+}
+
+
+@media screen and(max-width:700px){
+
+    
+#nav{
+    width: 100%;
+    height: 4cm;
+    background-color:rgba(233, 113, 15, 0.705);
+    
+ 
+  
+    
+}
+nav ul li{
+   display:inline-block;
+   padding-top:6mm;
+   
+}
+nav ul li a{
+    color: white;
+    padding: 3mm;
+    font-size: 5mm;
+    text-decoration: none;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: blue;
+}
+#two{
+    width: 100%;
+    height: 21cm;
+    display: block;
+    margin-left: 110px;
+}
+}
